@@ -42,7 +42,9 @@ const classSchema = new mongoose.Schema(
     packages: [packageSchema],
     reviews: [reviewSchema],
     bookings: [bookingSchema],
-
+    date:Number,
+    slottimings:String,
+    timerange:String,
     price: Number,
     commissionPercent: Number,
 
